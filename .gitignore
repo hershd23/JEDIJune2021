@@ -1,3 +1,6 @@
+# Not add any cpp object files
+*.o
+
 # Built application files
 *.apk
 *.aar
