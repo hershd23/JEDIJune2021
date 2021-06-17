@@ -2,12 +2,15 @@
 
 void helloWorld();
 
-void someUnnecessaryCode(){
-	printf("Ding dong");
+void greeting(char name[]){
+        printf("Hey, Where were you?.. %s", name);
 }
+
 
 int main() {
 	helloWorld();
+	char name[] = "Chintu";
+	greeting(name);
 }
 
 void helloWorld() {
