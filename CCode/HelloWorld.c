@@ -2,8 +2,14 @@
 
 void helloWorld();
 
+void greeting() {
+	printf("Good Morning");
+}
+
 int main() {
 	helloWorld();
+	
+	greeting();
 }
 
 void helloWorld() {
