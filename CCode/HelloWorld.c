@@ -11,7 +11,7 @@ int main() {
 	helloWorld();
 	char name[] = "Chintu";
 	greeting(name);
-}
+
 
 void helloWorld() {
 	printf("Hello World");
