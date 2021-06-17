@@ -2,6 +2,10 @@
 
 void helloWorld();
 
+void someUnnecessaryCode(){
+	printf("Ding dong");
+}
+
 int main() {
 	helloWorld();
 }
